@@ -9,7 +9,6 @@ it('check add', function(){
     browser.sleep(2000);
     element(by.css('[ng-click="doAddition()"]')).click();
     //element(by.cssContainingText('.ng-binding', '146'));
-    
     browser.sleep(2000);
 });
 
